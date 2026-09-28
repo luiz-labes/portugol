@@ -1,0 +1,16 @@
+algoritmo "seguranca de balada"
+
+var
+  idade: inteiro
+
+inicio
+
+  escreval("Qual sua idade: ")
+  leia(idade)
+  se idade>= 18 entao
+  escreva("Acesso permitido")
+  senao
+  escreva("Acesso negado")
+  fimse
+
+fimalgoritmo
