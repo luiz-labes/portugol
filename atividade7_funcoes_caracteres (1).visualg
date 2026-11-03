@@ -1,0 +1,21 @@
+algoritmo "funcoes_de_caracteres"
+
+var
+  nome, parte, maiuscula, minuscula : caractere
+  tamanho, posicao : inteiro
+inicio
+  escreva("Digite uma palavra: ")
+  leia(nome)
+
+  tamanho <- compr(nome)
+  parte <- copia(nome, 1, 3)
+  maiuscula <- maiusc(nome)
+  minuscula <- minusc(nome)
+  posicao <- pos("iz", nome)
+
+  escreval("Tamanho da palavra: ", tamanho)
+  escreval("Primeiras 3 letras: ", parte)
+  escreval("Em maiusculas: ", maiuscula)
+  escreval("Em minusculas: ", minuscula)
+  escreval("Posicao de 'iz': ", posicao)
+fimalgoritmo
